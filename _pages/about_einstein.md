@@ -1,3 +1,3 @@
-PhD Candidate at the Intensive Care department of the Erasmus Medical Center, Rotterdam, collaborating with the Pattern Recognition & Bioinformatics group of Delft University of Technology. Focusing on Machine Learning / Artificial Intelligence applications to improve Healthcare, with a special interest in Causal Inference. 
+PhD Candidate at the Intensive Care department of the Erasmus Medical Center, Rotterdam, collaborating with the Pattern Recognition & Bioinformatics group of Delft University of Technology. Focusing on Machine Learning Artificial Intelligence applications to improve Healthcare, with a special interest in Causal Inference. 
 
-Find me on [X/Twitter](https://x.com/JimSmit_), [LinkedIn](https://www.linkedin.com/in/jim-smit-58ab7413b/), [Google Scholar](https://scholar.google.com/citations?hl=en&user=vYRPFsEAAAAJ&view_op=list_works&sortby=pubdate) and [ResearchGate](https://www.researchgate.net/profile/Jim-Smit). 
+Find me on [X/Twitter](https://x.com/JimSmit_), [LinkedIn](https://www.linkedin.com/in/jim-smit-58ab7413b/), and [Google Scholar](https://scholar.google.com/citations?hl=en&user=vYRPFsEAAAAJ&view_op=list_works&sortby=pubdate). 
