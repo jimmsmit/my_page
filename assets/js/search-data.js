@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "Curriculum Vitae",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
@@ -368,16 +375,11 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-new-preprint-on-medrxiv-on-the-heterogeneous-treatnent-effect-of-higher-vs-lower-peep-strategies-in-ards",
+          title: '📢 New Preprint on medrXiv! 📢 On the Heterogeneous Treatnent Effect of higher...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-new-publication-our-data-driven-analysis-of-randomised-trials-to-predict-benefit-from-corticosteroids-in-hopitalised-community-acquired-pneumonia-cap-is-now-available-in-the-latest-issue-of-lancet-respiratory-medicine-here-are-the-key-take-aways-the-controversy-routine-corticosteroid-use-for-cap-is-debated-with-conflicting-recommendations-in-recent-sccm-and-ers-esicm-escmid-alat-guidelines-while-some-guidelines-suggest-corticosteroids-for-severe-cap-evidence-remains-insufficient-and-the-definition-of-severe-inconsistent-what-we-did-conducted-an-individual-patient-data-meta-analysis-covering-8-rcts-and-3-248-patients-hospitalised-with-cap-focused-on-analysing-heterogeneity-of-treatment-effects-hte-using-data-driven-approaches-we-developed-and-externally-validated-a-novel-corticosteroid-effect-model-pinpointing-baseline-c-reactive-protein-crp-as-a-critical-predictor-for-benefit-key-findings-we-found-significant-overall-mortality-reduction-from-corticosteroids-in-hospitalized-cap-but-survival-benefits-were-tied-to-high-baseline-crp-concentrations-amp-gt-204-mg-l-while-patients-with-lower-crp-concentrations-showed-no-mortality-benefit-contrary-to-earlier-assumptions-we-found-no-significant-hte-between-less-severe-vs-severe-cap-psi-class-i-iii-vs-iv-v-trade-offs-overall-increased-hospital-re-admissions-and-hyperglycaemia-incidence-due-to-corticosteroid-use-implications-for-practice-current-guidelines-overlook-crp-levels-in-corticosteroid-treatment-decisions-h-our-study-paves-the-way-for-more-targeted-corticosteroid-therapy-in-cap-through-threshold-based-crp-guidance-proud-of-our-team-of-authors-including-contributors-from-seven-countries-over-ten-cities-and-a-diverse-range-of-both-clinical-and-technical-expertise",
+          title: '📢 New Publication! 📢 Our data-driven analysis of randomised trials to predict benefit...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
