@@ -5,26 +5,27 @@ date: 2025-01-29 16:11:00-0400
 inline: true
 related_posts: false
 ---
-📢 New Publication! 📢
-Our data-driven analysis of randomised trials to predict benefit from corticosteroids in hopitalised Community-Acquired-Pneumonia (CAP) is now available in the latest issue of Lancet Respiratory Medicine
-
-Here are the key take-aways:
-
-####💡 The Controversy:
+📢 New Publication! 📢\
+ <br/>
+Our data-driven analysis of randomised trials to predict benefit from corticosteroids in hopitalised Community-Acquired-Pneumonia (CAP) is now available in the latest issue of Lancet Respiratory Medicine\
+ <br/>
+Here are the key take-aways:\
+ <br/>
+💡 The Controversy:
 <ul>
     <li>Routine corticosteroid use for CAP is debated, with conflicting recommendations in recent SCCM and ERS / ESICM ESCMID / ALAT guidelines.</li>
     <li>While some guidelines suggest corticosteroids for severe CAP, evidence remains insufficient and the definition of “severe” inconsistent</li>
 </ul>
  
 
-####🔍 What We Did:
+🔍 What We Did:
 <ul>
     <li>Conducted an individual patient data meta-analysis, covering 8 RCTs and 3,248 patients hospitalised with CAP.</li>
     <li>Focused on analysing heterogeneity of treatment effects (HTE) using data-driven approaches</li>
     <li>We developed and externally validated a novel corticosteroid-effect model, pinpointing baseline C-reactive protein (CRP) as a critical predictor for benefit</li>
 </ul>
 
-####📊 Key Findings:
+📊 Key Findings:
 <ul>
     <li>We found significant overall mortality reduction from corticosteroids in hospitalized CAP, but ...</li>
     <li>Survival benefits were tied to high baseline CRP concentrations (>204 mg/L), while patients with lower CRP concentrations showed no mortality benefit.</li>
@@ -33,7 +34,7 @@ Here are the key take-aways:
 </ul>
 
 
-####🧠 Implications for Practice:
+🧠 Implications for Practice:
 <ul>
     <li>Current guidelines overlook CRP levels in corticosteroid treatment decisions.h</li>
     <li>Our study paves the way for more targeted corticosteroid therapy in CAP, through threshold-based CRP guidance</li>
