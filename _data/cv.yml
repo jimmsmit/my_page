@@ -2,31 +2,43 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Jim M Smit
     - name: Date of Birth
-      value: 14th March 1879
+      value: 18th July 1997
     - name: Languages
-      value: English, German
+      value: Dutch, English, German
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Erasmus University Medical Center, Rotterdam, Netherlands
+      year: 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Machine Learning for Intensive Care Medicine
+        -  Focusingontheprediction of individualized causal effects, to further personalize ICU treatments.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: Semester Abroad
+      institution: KTH Royal institute of Technology, Stockholm, Sweden
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
+        - SpendtheSpringSemesterasanexchangestudentatthefaculty of ComputerScience
+        # - Description 2.
+    - title: MSc Biomedical Engineering
+      institution: Delft University of Technology, Delft, Netherlands
+      year: 2018-2021
+      description:
+        - Thesis:Prediction models for adverse outcomes in COVID‑19 patients.
+        - GPA:8.2/10
+    - title: BSc Clinical Technology
+      institution: Delft University of Technology / Erasmus University Medical Center / Leiden University Medical Center (joint degree)
+      year: 2015-2018
+      description:
+        - GPA:7.7/10
+        # - Description 2.
 
 - title: Experience
   type: time_table
@@ -61,37 +73,49 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
+- title: Oral presentations / Invited Talks
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - The Predictive Analytics and Comparative Effectiveness Center (PACE)Symposium
+        - Boston, MA, USA
+    - year: 2024
       items:
-        - Max Planck Medal
+        - PLUG Physiology Symposium
+        - Boston, MA, USA
+    - year: 2023
+      items:
+        - PneumoTrieste
+        - Trieste, Italy
+    - year: 2022
+      items:
+        - TOPICS in ICU
+        - Utrecht, Netherlands
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Causal Inference
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Heterogeneous treatment effects
+        - Target trial emulation
+        - Reinforcement learning
+        
+        
+    - title: Prediction modelling
       items:
-        - Description 1.
-        - Description 2.
+        - outcome prediction
+        - model evaluation
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Basketball, Running, Comedy
