@@ -3,115 +3,85 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{Smit2023,
+author = {Smit, Jim M and Krijthe, Jesse H and van Bommel, Jasper},
+doi = {10.1007/s00134-023-07102-y},
+institution = {Causal Inference for ICU Collaborators},
+issn = {1432-1238 (Electronic)},
+journal = {Intensive care medicine},
+keywords = {Algorithms,Artificial Intelligence,Critical Care,Forecasting,Humans},
+language = {eng},
+month = {sep},
+number = {9},
+pages = {1114--1116},
+pmid = {37278758},
+title = {{The future of artificial intelligence in intensive care: moving from predictive  to actionable AI.}},
+volume = {49},
+year = {2023}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{Smit2023,
+author = {Smit, Jim M and Krijthe, Jesse H and van Bommel, Jasper},
+doi = {10.1007/s00134-023-07102-y},
+institution = {Causal Inference for ICU Collaborators},
+issn = {1432-1238 (Electronic)},
+journal = {Intensive care medicine},
+keywords = {Algorithms,Artificial Intelligence,Critical Care,Forecasting,Humans},
+language = {eng},
+month = {sep},
+number = {9},
+pages = {1114--1116},
+pmid = {37278758},
+title = {{The future of artificial intelligence in intensive care: moving from predictive  to actionable AI.}},
+volume = {49},
+year = {2023}
+}
+@article{Smit2025,
+abstract = {Background: Mixed trial results suggest that some ventilated patients with acute respiratory distress syndrome (ARDS) benefit from high PEEP while others may be harmed, indicating heterogeneity of treatment effect (HTE). This study applies data-driven predictive approaches to uncover HTE and re-examines previously hypothesized HTE. This manuscript serves as a pre-registration of planned external validation of our trained models. Methods: We identified eight randomized trials, and obtained individual patient data (IPD) from three of them (ALVEOLI, LOVS, EXPRESS), as our train cohort. We used effect modelling to predict individualized treatment effects (predicted 28-day mortality risk difference between PEEP strategies) across patient subgroups stratified by observed tertiles (&lt;=8 cmH2O, 9-11 cmH2O, &gt;=12 cmH2O). Candidate effect modelling methods included meta-learners and technique-specific methods. Optimal methods were selected through &#039;leave-one-trial-out&#039; cross-validation, evaluating the methods&#039; performances in each PEEP tertile using AUC-benefit. We trained final models using the best performing methods implemented with or without forward selection (which yielded sufficient AUC-benefit), and additional final models by selecting the variables that yielded consistency in the forward selections performed in the cross validation, if any. We further evaluated earlier hypothesized HTE comparing (1) patients with baseline PaO2/FiO2 &lt;=200 versus &gt;200 mmHg, and (2) patients with hypoinflammatory versus hyperinflammatory subphenotypes. Preliminary findings: In the lower PEEP tertile (&lt;=8 cmH2O), an X-learner implemented without, and an S-learner implemented with forward selection (both with flexible base learners), yielded the highest AUC benefits and were used to train final models. In the high PEEP tertile (&gt;=12 cmH2O), only the causal forest implemented with forward selection yielded an AUC benefit exceeding zero. Respiratory-system compliance (CRS) was consistently selected in the forward selections of cross validation, and was used to train an extra final causal forest model, with predicted effects shifting from harm to benefit for CRS 26.5 mL/cmH2O or higher. Higher PEEP benefited patients with baseline PaO2/FiO2 &lt;=200 mmHg (OR 0.80, 95% CI 0.66-0.98), incurred harm among those with PaO2;/FiO2 &gt;200 mmHg (OR 1.74, 95% CI 1.02-2.98; interaction P=0.01). This HTE was strongest when PaO2/FiO2 was measured at low PEEP (&lt;=8 cmH2O), reduced at mid-level PEEP (9-11 cmH2O), and negligible at high PEEP (&gt;=12 cmH2O). A second-order interaction showed significant heterogeneity of HTE (ie, second-order heterogeneity) across PEEP tertiles (P=0.03). Preliminary Conclusions: Our preliminary findings indicated that baseline CRS &gt;=26.5 mL/cmH2O predicts benefit, while CRS &lt;26.5 mL/cmH2O predicts harm from high PEEP when CRS is measured at high baseline PEEP (&gt;=12 cmH2O). Similarly, baseline PaO2/FiO2; &lt;=200 mmHg predicts benefit, while PaO2/FiO2 &gt;200 mmHg predicts harm from high PEEP when PaO2/FiO2 is measured at a low baseline PEEP (&lt;=8 cmH2O). Using data from the LOVS trial, we investigated HTE for high PEEP between hypo- and hyperinflammatory subphenotypes but found none, despite significant HTE observed earlier in the ALVEOLI trial.Competing Interest StatementA.H. Jonkman declares research funding paid to the institution by Pulmotech B.V., for validation of new esophageal pressure sensor. D. Talmor declares support from the National Institutes of Health and lecture honoraria from Mindray. J. Villar was funded by Instituto de Salud Carlos III, Madrid, Sapin (CB06/06/1088, PI19/00141, AC-21_2/00039), ERAPerMed(JTC_2021), ERAPerMed(JTC_2021), The European Regional Development Funds, Fundacion Canaria Intituto de Investigacipn Sanitaria de Canarias, and Asociacion Cientifica Pulmon y Ventilacion Mecanica. C.S. Calfee declares grants from NIH, Roche Genentech, and Quantum Leap Healthcare Collaborative to her institution, consulting fees from Vasomune, Gen1e Life Sciences, NGM Bio, Cellenkos, Calcimedica, Arrowhead, EnliTISA, Novartis, and Merck, being speaker at a symposium on ESICM guidelines supported by Fisher-Paykel, a Patent on metagenomic sequencing for sepsis diagnosis (co-recipient) issued to Regents of University of California and Chan Zuckerberg BioHub, and being council member of the International Sepsis Forum (unpaid). Funding StatementThis study did not receive any funding.Author DeclarationsI confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.YesThe details of the IRB/oversight body that provided approval or exemption for the research described are given below:This study included individual patient data from three randomized controlled trials. The trial by Mercat et al. enrolled patinets at 37 intensive care units in France, and their study protocol was approved for all centers by the ethics committee of the Angers University Hospital (Comite Consultatif de Protection des Personnes dans la Recherche Biomedicale), according to French law. The trial by Brower et al. enrolled patients at 23 hospitals of the National HeartLung, and Blood Institute (NHLBI) ARDS Clinical Trials Network, and was approved by the institutional review board of each hospital. The trial by Meade et al. enrolled patients in 30 hospitals in Canada, Australia, and Saudi Arabia, and the research ethics board of each hospital approved the trial.I confirm that all necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived, and that any patient/participant/sample identifiers included were not known to anyone (e.g., hospital staff, patients or participants themselves) outside the research group so cannot be used to identify individuals.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).Yes I have followed all appropriate research reporting guidelines, such as any relevant EQUATOR Network research reporting checklist(s) and other pertinent material, if applicable.YesAll data produced in the present study are available upon reasonable request to the authors},
+author = {Smit, Jim M and Krijthe, Jesse H and van Bommel, Jasper and Sulemanji, Demet S and Villar, Jesus and Suarez-Sipmann, Fernando and Fernandez, Rosa L and Zampieri, Fernando G and Maia, Israel S and Cavalcanti, Alexandre B and Briel, Matthias and Meade, Maureen O and Zhou, Qi and Brower, Roy B and Sinha, Pratik and Bartek, Brian and Calfee, Carolyn S and Mercat, Alain and Richard, Jean-Christophe and Brochard, Laurent and {Serpa Neto}, Ary and Hodgson, Carol and Baedorf-Kassis, Elias N and Talmor, Daniel and Gommers, Diederik and van Genderen, Michel E and Reinders, Marcel J T and Jonkman, Annemijn H},
+doi = {10.1101/2025.01.23.25320649},
+journal = {medRxiv},
+month = {jan},
+pages = {2025.01.23.25320649},
+title = {{The Heterogeneous Effect of High PEEP strategies on Survival in Acute Respiratory Distress Syndrome: preliminary results of a data-driven analysis of randomized trials}},
+url = {http://medrxiv.org/content/early/2025/01/25/2025.01.23.25320649.abstract},
+year = {2025}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{Smit2025,
+abstract = {Background: Mixed trial results suggest that some ventilated patients with acute respiratory distress syndrome (ARDS) benefit from high PEEP while others may be harmed, indicating heterogeneity of treatment effect (HTE). This study applies data-driven predictive approaches to uncover HTE and re-examines previously hypothesized HTE. This manuscript serves as a pre-registration of planned external validation of our trained models. Methods: We identified eight randomized trials, and obtained individual patient data (IPD) from three of them (ALVEOLI, LOVS, EXPRESS), as our train cohort. We used effect modelling to predict individualized treatment effects (predicted 28-day mortality risk difference between PEEP strategies) across patient subgroups stratified by observed tertiles (&lt;=8 cmH2O, 9-11 cmH2O, &gt;=12 cmH2O). Candidate effect modelling methods included meta-learners and technique-specific methods. Optimal methods were selected through &#039;leave-one-trial-out&#039; cross-validation, evaluating the methods&#039; performances in each PEEP tertile using AUC-benefit. We trained final models using the best performing methods implemented with or without forward selection (which yielded sufficient AUC-benefit), and additional final models by selecting the variables that yielded consistency in the forward selections performed in the cross validation, if any. We further evaluated earlier hypothesized HTE comparing (1) patients with baseline PaO2/FiO2 &lt;=200 versus &gt;200 mmHg, and (2) patients with hypoinflammatory versus hyperinflammatory subphenotypes. Preliminary findings: In the lower PEEP tertile (&lt;=8 cmH2O), an X-learner implemented without, and an S-learner implemented with forward selection (both with flexible base learners), yielded the highest AUC benefits and were used to train final models. In the high PEEP tertile (&gt;=12 cmH2O), only the causal forest implemented with forward selection yielded an AUC benefit exceeding zero. Respiratory-system compliance (CRS) was consistently selected in the forward selections of cross validation, and was used to train an extra final causal forest model, with predicted effects shifting from harm to benefit for CRS 26.5 mL/cmH2O or higher. Higher PEEP benefited patients with baseline PaO2/FiO2 &lt;=200 mmHg (OR 0.80, 95% CI 0.66-0.98), incurred harm among those with PaO2;/FiO2 &gt;200 mmHg (OR 1.74, 95% CI 1.02-2.98; interaction P=0.01). This HTE was strongest when PaO2/FiO2 was measured at low PEEP (&lt;=8 cmH2O), reduced at mid-level PEEP (9-11 cmH2O), and negligible at high PEEP (&gt;=12 cmH2O). A second-order interaction showed significant heterogeneity of HTE (ie, second-order heterogeneity) across PEEP tertiles (P=0.03). Preliminary Conclusions: Our preliminary findings indicated that baseline CRS &gt;=26.5 mL/cmH2O predicts benefit, while CRS &lt;26.5 mL/cmH2O predicts harm from high PEEP when CRS is measured at high baseline PEEP (&gt;=12 cmH2O). Similarly, baseline PaO2/FiO2; &lt;=200 mmHg predicts benefit, while PaO2/FiO2 &gt;200 mmHg predicts harm from high PEEP when PaO2/FiO2 is measured at a low baseline PEEP (&lt;=8 cmH2O). Using data from the LOVS trial, we investigated HTE for high PEEP between hypo- and hyperinflammatory subphenotypes but found none, despite significant HTE observed earlier in the ALVEOLI trial.Competing Interest StatementA.H. Jonkman declares research funding paid to the institution by Pulmotech B.V., for validation of new esophageal pressure sensor. D. Talmor declares support from the National Institutes of Health and lecture honoraria from Mindray. J. Villar was funded by Instituto de Salud Carlos III, Madrid, Sapin (CB06/06/1088, PI19/00141, AC-21_2/00039), ERAPerMed(JTC_2021), ERAPerMed(JTC_2021), The European Regional Development Funds, Fundacion Canaria Intituto de Investigacipn Sanitaria de Canarias, and Asociacion Cientifica Pulmon y Ventilacion Mecanica. C.S. Calfee declares grants from NIH, Roche Genentech, and Quantum Leap Healthcare Collaborative to her institution, consulting fees from Vasomune, Gen1e Life Sciences, NGM Bio, Cellenkos, Calcimedica, Arrowhead, EnliTISA, Novartis, and Merck, being speaker at a symposium on ESICM guidelines supported by Fisher-Paykel, a Patent on metagenomic sequencing for sepsis diagnosis (co-recipient) issued to Regents of University of California and Chan Zuckerberg BioHub, and being council member of the International Sepsis Forum (unpaid). Funding StatementThis study did not receive any funding.Author DeclarationsI confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.YesThe details of the IRB/oversight body that provided approval or exemption for the research described are given below:This study included individual patient data from three randomized controlled trials. The trial by Mercat et al. enrolled patinets at 37 intensive care units in France, and their study protocol was approved for all centers by the ethics committee of the Angers University Hospital (Comite Consultatif de Protection des Personnes dans la Recherche Biomedicale), according to French law. The trial by Brower et al. enrolled patients at 23 hospitals of the National HeartLung, and Blood Institute (NHLBI) ARDS Clinical Trials Network, and was approved by the institutional review board of each hospital. The trial by Meade et al. enrolled patients in 30 hospitals in Canada, Australia, and Saudi Arabia, and the research ethics board of each hospital approved the trial.I confirm that all necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived, and that any patient/participant/sample identifiers included were not known to anyone (e.g., hospital staff, patients or participants themselves) outside the research group so cannot be used to identify individuals.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).Yes I have followed all appropriate research reporting guidelines, such as any relevant EQUATOR Network research reporting checklist(s) and other pertinent material, if applicable.YesAll data produced in the present study are available upon reasonable request to the authors},
+author = {Smit, Jim M and Krijthe, Jesse H and van Bommel, Jasper and Sulemanji, Demet S and Villar, Jesus and Suarez-Sipmann, Fernando and Fernandez, Rosa L and Zampieri, Fernando G and Maia, Israel S and Cavalcanti, Alexandre B and Briel, Matthias and Meade, Maureen O and Zhou, Qi and Brower, Roy B and Sinha, Pratik and Bartek, Brian and Calfee, Carolyn S and Mercat, Alain and Richard, Jean-Christophe and Brochard, Laurent and {Serpa Neto}, Ary and Hodgson, Carol and Baedorf-Kassis, Elias N and Talmor, Daniel and Gommers, Diederik and van Genderen, Michel E and Reinders, Marcel J T and Jonkman, Annemijn H},
+doi = {10.1101/2025.01.23.25320649},
+journal = {medRxiv},
+month = {jan},
+pages = {2025.01.23.25320649},
+title = {{The Heterogeneous Effect of High PEEP strategies on Survival in Acute Respiratory Distress Syndrome: preliminary results of a data-driven analysis of randomized trials}},
+url = {http://medrxiv.org/content/early/2025/01/25/2025.01.23.25320649.abstract},
+year = {2025}
 }
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@article{Smit2025,
+abstract = {Background: Mixed trial results suggest that some ventilated patients with acute respiratory distress syndrome (ARDS) benefit from high PEEP while others may be harmed, indicating heterogeneity of treatment effect (HTE). This study applies data-driven predictive approaches to uncover HTE and re-examines previously hypothesized HTE. This manuscript serves as a pre-registration of planned external validation of our trained models. Methods: We identified eight randomized trials, and obtained individual patient data (IPD) from three of them (ALVEOLI, LOVS, EXPRESS), as our train cohort. We used effect modelling to predict individualized treatment effects (predicted 28-day mortality risk difference between PEEP strategies) across patient subgroups stratified by observed tertiles (&lt;=8 cmH2O, 9-11 cmH2O, &gt;=12 cmH2O). Candidate effect modelling methods included meta-learners and technique-specific methods. Optimal methods were selected through &#039;leave-one-trial-out&#039; cross-validation, evaluating the methods&#039; performances in each PEEP tertile using AUC-benefit. We trained final models using the best performing methods implemented with or without forward selection (which yielded sufficient AUC-benefit), and additional final models by selecting the variables that yielded consistency in the forward selections performed in the cross validation, if any. We further evaluated earlier hypothesized HTE comparing (1) patients with baseline PaO2/FiO2 &lt;=200 versus &gt;200 mmHg, and (2) patients with hypoinflammatory versus hyperinflammatory subphenotypes. Preliminary findings: In the lower PEEP tertile (&lt;=8 cmH2O), an X-learner implemented without, and an S-learner implemented with forward selection (both with flexible base learners), yielded the highest AUC benefits and were used to train final models. In the high PEEP tertile (&gt;=12 cmH2O), only the causal forest implemented with forward selection yielded an AUC benefit exceeding zero. Respiratory-system compliance (CRS) was consistently selected in the forward selections of cross validation, and was used to train an extra final causal forest model, with predicted effects shifting from harm to benefit for CRS 26.5 mL/cmH2O or higher. Higher PEEP benefited patients with baseline PaO2/FiO2 &lt;=200 mmHg (OR 0.80, 95% CI 0.66-0.98), incurred harm among those with PaO2;/FiO2 &gt;200 mmHg (OR 1.74, 95% CI 1.02-2.98; interaction P=0.01). This HTE was strongest when PaO2/FiO2 was measured at low PEEP (&lt;=8 cmH2O), reduced at mid-level PEEP (9-11 cmH2O), and negligible at high PEEP (&gt;=12 cmH2O). A second-order interaction showed significant heterogeneity of HTE (ie, second-order heterogeneity) across PEEP tertiles (P=0.03). Preliminary Conclusions: Our preliminary findings indicated that baseline CRS &gt;=26.5 mL/cmH2O predicts benefit, while CRS &lt;26.5 mL/cmH2O predicts harm from high PEEP when CRS is measured at high baseline PEEP (&gt;=12 cmH2O). Similarly, baseline PaO2/FiO2; &lt;=200 mmHg predicts benefit, while PaO2/FiO2 &gt;200 mmHg predicts harm from high PEEP when PaO2/FiO2 is measured at a low baseline PEEP (&lt;=8 cmH2O). Using data from the LOVS trial, we investigated HTE for high PEEP between hypo- and hyperinflammatory subphenotypes but found none, despite significant HTE observed earlier in the ALVEOLI trial.Competing Interest StatementA.H. Jonkman declares research funding paid to the institution by Pulmotech B.V., for validation of new esophageal pressure sensor. D. Talmor declares support from the National Institutes of Health and lecture honoraria from Mindray. J. Villar was funded by Instituto de Salud Carlos III, Madrid, Sapin (CB06/06/1088, PI19/00141, AC-21_2/00039), ERAPerMed(JTC_2021), ERAPerMed(JTC_2021), The European Regional Development Funds, Fundacion Canaria Intituto de Investigacipn Sanitaria de Canarias, and Asociacion Cientifica Pulmon y Ventilacion Mecanica. C.S. Calfee declares grants from NIH, Roche Genentech, and Quantum Leap Healthcare Collaborative to her institution, consulting fees from Vasomune, Gen1e Life Sciences, NGM Bio, Cellenkos, Calcimedica, Arrowhead, EnliTISA, Novartis, and Merck, being speaker at a symposium on ESICM guidelines supported by Fisher-Paykel, a Patent on metagenomic sequencing for sepsis diagnosis (co-recipient) issued to Regents of University of California and Chan Zuckerberg BioHub, and being council member of the International Sepsis Forum (unpaid). Funding StatementThis study did not receive any funding.Author DeclarationsI confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.YesThe details of the IRB/oversight body that provided approval or exemption for the research described are given below:This study included individual patient data from three randomized controlled trials. The trial by Mercat et al. enrolled patinets at 37 intensive care units in France, and their study protocol was approved for all centers by the ethics committee of the Angers University Hospital (Comite Consultatif de Protection des Personnes dans la Recherche Biomedicale), according to French law. The trial by Brower et al. enrolled patients at 23 hospitals of the National HeartLung, and Blood Institute (NHLBI) ARDS Clinical Trials Network, and was approved by the institutional review board of each hospital. The trial by Meade et al. enrolled patients in 30 hospitals in Canada, Australia, and Saudi Arabia, and the research ethics board of each hospital approved the trial.I confirm that all necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived, and that any patient/participant/sample identifiers included were not known to anyone (e.g., hospital staff, patients or participants themselves) outside the research group so cannot be used to identify individuals.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).Yes I have followed all appropriate research reporting guidelines, such as any relevant EQUATOR Network research reporting checklist(s) and other pertinent material, if applicable.YesAll data produced in the present study are available upon reasonable request to the authors},
+author = {Smit, Jim M and Krijthe, Jesse H and van Bommel, Jasper and Sulemanji, Demet S and Villar, Jesus and Suarez-Sipmann, Fernando and Fernandez, Rosa L and Zampieri, Fernando G and Maia, Israel S and Cavalcanti, Alexandre B and Briel, Matthias and Meade, Maureen O and Zhou, Qi and Brower, Roy B and Sinha, Pratik and Bartek, Brian and Calfee, Carolyn S and Mercat, Alain and Richard, Jean-Christophe and Brochard, Laurent and {Serpa Neto}, Ary and Hodgson, Carol and Baedorf-Kassis, Elias N and Talmor, Daniel and Gommers, Diederik and van Genderen, Michel E and Reinders, Marcel J T and Jonkman, Annemijn H},
+doi = {10.1101/2025.01.23.25320649},
+journal = {medRxiv},
+month = {jan},
+pages = {2025.01.23.25320649},
+title = {{The Heterogeneous Effect of High PEEP strategies on Survival in Acute Respiratory Distress Syndrome: preliminary results of a data-driven analysis of randomized trials}},
+url = {http://medrxiv.org/content/early/2025/01/25/2025.01.23.25320649.abstract},
+year = {2025}
 }
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{Smit2022,
+abstract = {Background The COVID-19 pandemic continues to overwhelm intensive care units (ICUs) worldwide, and improved prediction of mortality among COVID-19 patients could assist decision making in the ICU setting. In this work, we report on the development and validation of a dynamic mortality model specifically for critically ill COVID-19 patients and discuss its potential utility in the ICU. Methods We collected electronic medical record (EMR) data from 3222 ICU admissions with a COVID-19 infection from 25 different ICUs in the Netherlands. We extracted daily observations of each patient and fitted both a linear (logistic regression) and non-linear (random forest) model to predict mortality within 24 h from the moment of prediction. Isotonic regression was used to re-calibrate the predictions of the fitted models. We evaluated the models in a leave-one-ICU-out (LOIO) cross-validation procedure. Results The logistic regression and random forest model yielded an area under the receiver operating characteristic curve of 0.87 [0.85; 0.88] and 0.86 [0.84; 0.88], respectively. The recalibrated model predictions showed a calibration intercept of −0.04 [−0.12; 0.04] and slope of 0.90 [0.85; 0.95] for logistic regression model and a calibration intercept of −0.19 [−0.27; −0.10] and slope of 0.89 [0.84; 0.94] for the random forest model. Discussion We presented a model for dynamic mortality prediction, specifically for critically ill COVID-19 patients, which predicts near-term mortality rather than in-ICU mortality. The potential clinical utility of dynamic mortality models such as benchmarking, improving resource allocation and informing family members, as well as the development of models with more causal structure, should be topics for future research.},
+author = {Smit, J M and Krijthe, J H and Endeman, H and Tintu, A N and de Rijke, Y B and Gommers, D.A.M.P.J. and Cremer, O L and Bosman, R J and Rigter, S and Wils, E.-J. and Frenzel, T and Dongelmans, D A and {De Jong}, R and Peters, M A A and Kamps, M J A and Ramnarain, D and Nowitzky, R and Nooteboom, F.G.C.A. and {De Ruijter}, W and Urlings-Strop, L C and Smit, E G M and Mehagnoul-Schipper, D J and Dormans, T and {De Jager}, C P C and Hendriks, S H A and Achterberg, S and Oostdijk, E and Reidinga, A C and Festen-Spanjer, B and Brunnekreef, G B and Cornet, A D and {Van den Tempel}, W and Boelens, A D and Koetsier, P and Lens, J A and Faber, H J and Karakus, A and Entjes, R and {De Jong}, P and Rettig, T C D and Arbous, M S and Lalisang, R C A and Tonutti, M and {De Bruin}, D P and Elbers, P W G and {Van Bommel}, J and Reinders, M J T},
+doi = {https://doi.org/10.1016/j.ibmed.2022.100071},
+file = {:C\:/Users/31643/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Smit et al. - 2022 - Dynamic prediction of mortality in COVID-19 patients in the intensive care unit A retrospective multi-center coh(2).pdf:pdf},
+issn = {2666-5212},
+journal = {Intelligence-Based Medicine},
+pages = {100071},
+title = {{Dynamic prediction of mortality in COVID-19 patients in the intensive care unit: A retrospective multi-center cohort study}},
+url = {https://www.sciencedirect.com/science/article/pii/S2666521222000242},
+volume = {6},
+year = {2022}
 }
 
 @article{Smit2021,
