@@ -24,9 +24,9 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  # scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  # limit: 3 # leave blank to include all the blog posts
 ---
 PhD Candidate at the Intensive Care department and [Datahub](https://datahub.health/) of the Erasmus Medical Center, Rotterdam, collaborating with the [Pattern Recognition & Bioinformatics group](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics/pattern-recognition-bioinformatics/people) of Delft University of Technology. Focusing on Machine Learning /Artificial Intelligence applications to improve Healthcare, with a special interest in Causal Inference. 
 
